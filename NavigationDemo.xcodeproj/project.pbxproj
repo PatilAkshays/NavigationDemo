@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9312D5B322450663000AA208 /* ImageViewerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5AA22450662000AA208 /* ImageViewerConfiguration.swift */; };
+		9312D5B422450663000AA208 /* AnimatableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5AB22450662000AA208 /* AnimatableImageView.swift */; };
+		9312D5B522450663000AA208 /* ImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5AC22450663000AA208 /* ImageViewerController.swift */; };
+		9312D5B622450663000AA208 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5AD22450663000AA208 /* Utilities.swift */; };
+		9312D5D02245073F000AA208 /* ImageViewer-Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9312D5CE2245073F000AA208 /* ImageViewer-Assets.xcassets */; };
+		9312D5D12245073F000AA208 /* ImageViewerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9312D5CF2245073F000AA208 /* ImageViewerController.xib */; };
+		9312D5D72245078B000AA208 /* ImageViewerTransitioningHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5D32245078B000AA208 /* ImageViewerTransitioningHandler.swift */; };
+		9312D5D82245078B000AA208 /* ImageViewerDismissalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5D42245078B000AA208 /* ImageViewerDismissalInteractor.swift */; };
+		9312D5D92245078B000AA208 /* ImageViewerPresentationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5D52245078B000AA208 /* ImageViewerPresentationTransition.swift */; };
+		9312D5DA2245078B000AA208 /* ImageViewerDismissalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5D62245078B000AA208 /* ImageViewerDismissalTransition.swift */; };
+		9312D5DD224508CE000AA208 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5DB224508CE000AA208 /* HeaderView.swift */; };
+		9312D5DE224508CE000AA208 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D5DC224508CE000AA208 /* ImageCell.swift */; };
 		9384238C222D43930032D443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9384238B222D43930032D443 /* AppDelegate.swift */; };
 		9384238E222D43930032D443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9384238D222D43930032D443 /* ViewController.swift */; };
 		93842391222D43930032D443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9384238F222D43930032D443 /* Main.storyboard */; };
@@ -14,6 +26,7 @@
 		93842396222D43980032D443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93842394222D43980032D443 /* LaunchScreen.storyboard */; };
 		938423A1222D43980032D443 /* NavigationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938423A0222D43980032D443 /* NavigationDemoTests.swift */; };
 		938423AC222D43980032D443 /* NavigationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938423AB222D43980032D443 /* NavigationDemoUITests.swift */; };
+		938423BA222D43F60032D443 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938423B9222D43F60032D443 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9312D5AA22450662000AA208 /* ImageViewerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerConfiguration.swift; sourceTree = "<group>"; };
+		9312D5AB22450662000AA208 /* AnimatableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableImageView.swift; sourceTree = "<group>"; };
+		9312D5AC22450663000AA208 /* ImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerController.swift; sourceTree = "<group>"; };
+		9312D5AD22450663000AA208 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9312D5CE2245073F000AA208 /* ImageViewer-Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "ImageViewer-Assets.xcassets"; sourceTree = "<group>"; };
+		9312D5CF2245073F000AA208 /* ImageViewerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewerController.xib; sourceTree = "<group>"; };
+		9312D5D32245078B000AA208 /* ImageViewerTransitioningHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerTransitioningHandler.swift; sourceTree = "<group>"; };
+		9312D5D42245078B000AA208 /* ImageViewerDismissalInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerDismissalInteractor.swift; sourceTree = "<group>"; };
+		9312D5D52245078B000AA208 /* ImageViewerPresentationTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerPresentationTransition.swift; sourceTree = "<group>"; };
+		9312D5D62245078B000AA208 /* ImageViewerDismissalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerDismissalTransition.swift; sourceTree = "<group>"; };
+		9312D5DB224508CE000AA208 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9312D5DC224508CE000AA208 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		93842388222D43930032D443 /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9384238B222D43930032D443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9384238D222D43930032D443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,7 @@
 		938423A7222D43980032D443 /* NavigationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938423AB222D43980032D443 /* NavigationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoUITests.swift; sourceTree = "<group>"; };
 		938423AD222D43980032D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938423B9222D43F60032D443 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9312D5CD2245073F000AA208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9312D5CE2245073F000AA208 /* ImageViewer-Assets.xcassets */,
+				9312D5CF2245073F000AA208 /* ImageViewerController.xib */,
+			);
+			name = Resources;
+			path = ../../../Downloads/NavigationDemo/ImageViewer/Resources;
+			sourceTree = "<group>";
+		};
+		9312D5D22245078A000AA208 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				9312D5D32245078B000AA208 /* ImageViewerTransitioningHandler.swift */,
+				9312D5D42245078B000AA208 /* ImageViewerDismissalInteractor.swift */,
+				9312D5D52245078B000AA208 /* ImageViewerPresentationTransition.swift */,
+				9312D5D62245078B000AA208 /* ImageViewerDismissalTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		9312D5DF22450BA5000AA208 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9312D5AB22450662000AA208 /* AnimatableImageView.swift */,
+				9312D5AA22450662000AA208 /* ImageViewerConfiguration.swift */,
+				9312D5AC22450663000AA208 /* ImageViewerController.swift */,
+				9312D5AD22450663000AA208 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		9384237F222D43930032D443 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +155,14 @@
 		9384238A222D43930032D443 /* NavigationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9384238B222D43930032D443 /* AppDelegate.swift */,
+				9312D5D22245078A000AA208 /* Transitions */,
+				9312D5CD2245073F000AA208 /* Resources */,
+				9312D5DF22450BA5000AA208 /* Helper */,
 				9384238D222D43930032D443 /* ViewController.swift */,
+				9312D5DB224508CE000AA208 /* HeaderView.swift */,
+				9312D5DC224508CE000AA208 /* ImageCell.swift */,
+				938423B9222D43F60032D443 /* NewViewController.swift */,
+				9384238B222D43930032D443 /* AppDelegate.swift */,
 				9384238F222D43930032D443 /* Main.storyboard */,
 				93842392222D43980032D443 /* Assets.xcassets */,
 				93842394222D43980032D443 /* LaunchScreen.storyboard */,
@@ -229,7 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9312D5D02245073F000AA208 /* ImageViewer-Assets.xcassets in Resources */,
 				93842396222D43980032D443 /* LaunchScreen.storyboard in Resources */,
+				9312D5D12245073F000AA208 /* ImageViewerController.xib in Resources */,
 				93842393222D43980032D443 /* Assets.xcassets in Resources */,
 				93842391222D43930032D443 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +322,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938423BA222D43F60032D443 /* NewViewController.swift in Sources */,
+				9312D5B422450663000AA208 /* AnimatableImageView.swift in Sources */,
+				9312D5D92245078B000AA208 /* ImageViewerPresentationTransition.swift in Sources */,
+				9312D5DA2245078B000AA208 /* ImageViewerDismissalTransition.swift in Sources */,
+				9312D5B622450663000AA208 /* Utilities.swift in Sources */,
 				9384238E222D43930032D443 /* ViewController.swift in Sources */,
+				9312D5D82245078B000AA208 /* ImageViewerDismissalInteractor.swift in Sources */,
+				9312D5DD224508CE000AA208 /* HeaderView.swift in Sources */,
+				9312D5D72245078B000AA208 /* ImageViewerTransitioningHandler.swift in Sources */,
+				9312D5B322450663000AA208 /* ImageViewerConfiguration.swift in Sources */,
 				9384238C222D43930032D443 /* AppDelegate.swift in Sources */,
+				9312D5B522450663000AA208 /* ImageViewerController.swift in Sources */,
+				9312D5DE224508CE000AA208 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
