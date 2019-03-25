@@ -26,26 +26,26 @@ class NewViewController: UIViewController {
 
     }
     @objc func keyboardWillShow(notification: Notification) {
-        if ((notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue) != nil {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             print("notification: Keyboard will show")
             self.navigationController?.setNavigationBarHidden(true, animated: true)
             searchBar.showsCancelButton = true
             
-//            if self.view.frame.origin.y == 0{
-//                self.view.frame.origin.y -= keyboardSize.height
-//            }
+            if self.view.frame.origin.y == 0{
+                self.view.frame.origin.y -= keyboardSize.height
+            }
         }
         
     }
     
     @objc func keyboardWillHide(notification: Notification) {
-        if ((notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue) != nil {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             self.navigationController?.setNavigationBarHidden(false, animated: true)
             searchBar.showsCancelButton = false
             
-//            if self.view.frame.origin.y != 0 {
-//                self.view.frame.origin.y += keyboardSize.height
-//            }
+            if self.view.frame.origin.y != 0 {
+                self.view.frame.origin.y += keyboardSize.height
+            }
         }
     }
     
