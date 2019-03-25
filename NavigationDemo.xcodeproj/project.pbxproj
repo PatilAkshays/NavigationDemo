@@ -158,9 +158,9 @@
 				9312D5D22245078A000AA208 /* Transitions */,
 				9312D5CD2245073F000AA208 /* Resources */,
 				9312D5DF22450BA5000AA208 /* Helper */,
-				9384238D222D43930032D443 /* ViewController.swift */,
 				9312D5DB224508CE000AA208 /* HeaderView.swift */,
 				9312D5DC224508CE000AA208 /* ImageCell.swift */,
+				9384238D222D43930032D443 /* ViewController.swift */,
 				938423B9222D43F60032D443 /* NewViewController.swift */,
 				9384238B222D43930032D443 /* AppDelegate.swift */,
 				9384238F222D43930032D443 /* Main.storyboard */,
@@ -510,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29A2R26ACF;
 				INFOPLIST_FILE = NavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,6 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29A2R26ACF;
 				INFOPLIST_FILE = NavigationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
